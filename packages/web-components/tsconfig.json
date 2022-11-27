@@ -1,0 +1,16 @@
+{
+  "extends": "@tabidoo/tsconfig/tsconfig.lib.json",
+  "compilerOptions": {
+    "types": [
+      "node",
+      "vite/client"
+    ]
+  },
+  "include": [
+    "views/**/*.ts",
+    "components/**/*.ts",
+    "helpers/**/*.ts",
+    "types/**/*.d.ts",
+    "index.ts"
+  ]
+}

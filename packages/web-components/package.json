@@ -1,0 +1,37 @@
+{
+  "name": "@tabidoo/web-components",
+  "version": "0.0.0",
+  "module": "./index.ts",
+  "exports": {
+    ".": {
+      "default": "./index.ts",
+      "import": "./index.ts",
+      "types": "./types/index.d.ts"
+    },
+    "./helpers": {
+      "default": "./helpers/index.ts",
+      "import": "./helpers/index.ts"
+    },
+    "./elements": {
+      "default": "./elements/index.ts",
+      "import": "./elements/index.ts"
+    }
+  },
+  "types": "index.ts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "types/index.d.ts",
+        "index.ts"
+      ],
+      "./helpers": [
+        "helpers/types/index.d.ts",
+        "helpers/index.ts"
+      ],
+      "./elements": [
+        "elements/types/index.d.ts",
+        "elements/index.ts"
+      ]
+    }
+  }
+}
