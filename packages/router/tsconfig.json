@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "references": [
+    {
+      "path": "./tsconfig.lib.json"
+    },
+  ]
+}
