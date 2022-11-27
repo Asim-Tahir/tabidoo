@@ -9,7 +9,22 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@tabidoo/tsconfig": "workspace:^",
+    "@types/node": "^18.11.9",
     "typescript": "^4.6.4",
     "vite": "^3.2.3"
+  },
+  "packageManager": "yarn@3.2.4",
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "config/*"
+    ]
+  },
+  "dependencies": {
+    "@tabidoo/controller": "workspace:^",
+    "@tabidoo/router": "workspace:^",
+    "@tabidoo/utils": "workspace:^",
+    "@tabidoo/web-components": "workspace:^"
   }
 }
