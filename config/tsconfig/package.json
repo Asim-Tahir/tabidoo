@@ -1,0 +1,8 @@
+{
+  "name": "@tabidoo/tsconfig",
+  "files": [
+    "tsconfig.lib.json",
+    "tsconfig.node.json",
+    "tsconfig.base.json"
+  ]
+}
